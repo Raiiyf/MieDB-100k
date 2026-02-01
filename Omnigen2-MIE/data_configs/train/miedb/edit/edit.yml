@@ -1,0 +1,4 @@
+data:
+- path: data_configs/train/miedb/edit/jsonls/0.jsonl
+  type: edit
+  ratio: 1.0

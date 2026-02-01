@@ -1,0 +1,7 @@
+.sumi
+__pycache__
+eval_results
+*.jsonl
+dataTrain
+dataBenchmark
+Omnigen2-MIE/experiments

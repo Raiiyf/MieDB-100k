@@ -1,0 +1,5 @@
+data:
+  -
+    path: 'data_configs/train/miedb/edit/edit.yml'
+    type: 'edit'
+    ratio: !!float 1
