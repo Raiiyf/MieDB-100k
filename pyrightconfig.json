@@ -3,6 +3,7 @@
     "evaluation/mod_collage/",
     "evaluation/mod_batch/",
     "evaluation/llm_score_result/",
+    "inference/eval_results",
     "dataTrain",
     "dataBenchmark"
     ]

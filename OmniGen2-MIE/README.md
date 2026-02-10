@@ -1,6 +1,6 @@
 # Omnigen2-MIE
 
-Our model is built based on [OmniGen2]("https://github.com/VectorSpaceLab/OmniGen2"), please refer to original repo for detailed introduction.
+Our model is built based on [OmniGen2](https://github.com/VectorSpaceLab/OmniGen2), please refer to original repo for detailed introduction.
 
 ## Training
 

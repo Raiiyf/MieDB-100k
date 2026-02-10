@@ -4,4 +4,8 @@ eval_results
 *.jsonl
 dataTrain
 dataBenchmark
-Omnigen2-MIE/experiments
+OmniGen2-MIE/experiments
+Mod_collage
+*.png
+*.zip
+*.tar
