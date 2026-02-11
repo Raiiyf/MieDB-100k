@@ -1,8 +1,8 @@
 <div align="center">
 <h1>MieDB-100k: A Comprehensive Dataset for Medical Image Editing</h1>
 
-<a href=''><img src='https://img.shields.io/badge/Arxiv-paper-red'></a>
-<a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MieDB 100k-yellow'></a>
+<a href='https://arxiv.org/abs/2602.09587'><img src='https://img.shields.io/badge/Arxiv-paper-red'></a>
+<a href='https://huggingface.co/datasets/Laiyf/MieDB-100k'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MieDB 100k-yellow'></a>
 
 <p align="center"><img src="assets/figure_1.jpg"></p>
 </div>
@@ -20,7 +20,15 @@ This repository contains:
 
 ### Dataset Download
 
-1. Download compressed MieDB-100k dataset from our [huggingface repo](https://huggingface.co/datasets/Laiyf/MieDB-100k)
+1. Download compressed MieDB-100k dataset from our [huggingface repo](https://huggingface.co/datasets/Laiyf/MieDB-100k):
+
+```bash
+# For benchmark split
+python dataset_download.py 
+
+# For train split
+python dataset_download.py --train
+```
 
 2. Extract compressed file via:
 
@@ -75,8 +83,10 @@ The structure of this repository should be like:
 ├── OmniGen2-MIE/
 │   ├── ...
 ├── README.md
+├── dataset_download.py
 ├── pyrightconfig.json
-└── requirements.txt
+├── requirements.txt
+└── ...
 ```
 
 ## 🧪 Benchmark Inference
@@ -100,7 +110,7 @@ python DICE.py
 ```
 Note that you can change the evaluation subject by modify the `MODEL_NAME` variable according to their resulted folder name under `inference/eval_results`. This holds for other evaluation scripts.
 
-3. To evaluate Background PSNR and SSIM for Perception perspecitve, run:
+3. To evaluate Background PSNR and SSIM in Perception perspecitve, run:
 ```bash
 python PSNR-SSIM-perception.py
 ```
@@ -117,3 +127,15 @@ python PSNR-SSIM-transformation.py
 ```
 
 ## 🐑 Citation
+
+```
+@article{miedb100k,
+      title={MieDB-100k: A Comprehensive Dataset for Medical Image Editing}, 
+      author={Yongfan Lai and Wen Qian and Bo Liu and Hongyan Li and Hao Luo and Fan Wang and Bohan Zhuang and Shenda Hong},
+      year={2026},
+      journel={Preprint at Arxiv}
+      url={https://arxiv.org/abs/2602.09587}, 
+}
+```
+
+If you find our work helpful, please give us a star🌟

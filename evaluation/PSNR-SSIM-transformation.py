@@ -10,7 +10,7 @@ from skimage.metrics import peak_signal_noise_ratio as psnr, structural_similari
 if __name__ == "__main__":
 
     MODEL_NAME = ""
-    RESULT_FOLDER_PATH = "/mnt/workspace/workgroup/laiyongfan.lyf/Code/MedImageEdit/inference/eval_results"
+    RESULT_FOLDER_PATH = "../inference/eval_results"
     NUM_BATCH = 3
 
     BENCH_DIR = "../dataBenchmark"

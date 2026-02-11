@@ -11,7 +11,7 @@ from DICE import extract_alpha, extract_alpha_multi_color
 if __name__ == "__main__":
 
     MODEL_NAME = "FluxKontext"
-    RESULT_FOLDER_PATH = "/mnt/workspace/workgroup/laiyongfan.lyf/Code/MedImageEdit/inference/eval_results"
+    RESULT_FOLDER_PATH = "../inference/eval_results"
     NUM_BATCH = 3
 
     BENCH_DIR = "../dataBenchmark"
