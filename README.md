@@ -133,7 +133,7 @@ python PSNR-SSIM-transformation.py
       title={MieDB-100k: A Comprehensive Dataset for Medical Image Editing}, 
       author={Yongfan Lai and Wen Qian and Bo Liu and Hongyan Li and Hao Luo and Fan Wang and Bohan Zhuang and Shenda Hong},
       year={2026},
-      journel={Preprint at Arxiv}
+      journel={Preprint at arXiv}
       url={https://arxiv.org/abs/2602.09587}, 
 }
 ```

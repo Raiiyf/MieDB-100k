@@ -18,8 +18,8 @@ def parse_args():
 def download(args):
     file_lists = []
     if args.train:
-        print("Train Split Coming Soon")
-        exit(0)
+        print("Downloading MieDB-100k Train Split")
+        file_lists = [f'dataTrain_0{i}.tar' for i in range(10)]
     else:
         print("Downloading MieDB-100k Benchmark Split")
         file_lists = ['dataBenchmark_00.tar']
