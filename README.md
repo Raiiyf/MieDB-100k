@@ -35,17 +35,17 @@ python dataset_download.py --train
 Benchmark split:
 ```bash
 mkdir dataBenchmark
-pv dataBenchmark_*.tar | tar -xf - -C dataBenchmark --skip-old-files
+cat dataBenchmark_*.tar | pv | tar -xf - -C dataBenchmark --skip-old-files
 ```
 
 Train split:
 ```bash
 mkdir dataTrain
-pv dataTrain_*.tar | tar -xf - -C dataTrain --skip-old-files
+cat dataTrain_*.tar | pv | tar -xf - -C dataTrain --skip-old-files
 ```
 
 Note:
-- `pv` is used for progress visualization. You can switch to `cat` if you want to extract in silence manner.
+- `pv` is used for progress visualization. Just omit it if you want to extract in silence manner.
 - macOS doesn't support --skip-old-files, use `tar -xkf - -C /path/to/dst/` instead after the pipe.
 
 ### Environment Setup
